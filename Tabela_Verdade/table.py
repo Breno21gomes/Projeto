@@ -1,4 +1,3 @@
-from time import sleep
 class Tabela_Verdade:
 # Função para referenciar os parâmetros à função principal;
     def __init__(self, variaveis, operaçoes):
