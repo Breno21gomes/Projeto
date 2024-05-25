@@ -1,5 +1,4 @@
 from table import Tabela_Verdade
-from time import sleep
 
 #Função principal;
 def main():
@@ -15,10 +14,7 @@ def main():
                 break
 
             tabela = Tabela_Verdade(variaveis, operacao)
-            print('Tabela verdade sendo gerada.')
-            sleep(1)
-            print('Aguarde alguns segundos...')
-            sleep(1)
+            print('Tabela verdade gerada.')
             tabela.gerador_tabela()
             break
 
